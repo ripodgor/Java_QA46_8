@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bbb6f1a-756e-4083-8bba-b390869fe99b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StatisticsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/statistic/StatisticsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +36,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/Rip34/IdeaProjects/Java_QA46_8/src/test/java"
+    "last_directory_selection": "C:/Users/Rip34/IdeaProjects/Java_QA46_8/src/main/java"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn test" />
       <command value="mvn clean verify" />
+      <command value="mvn test" />
     </option>
   </component>
   <component name="RunManager">
