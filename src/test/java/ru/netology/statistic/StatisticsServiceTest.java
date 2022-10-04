@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StatisticsServiceTest {
+public class StatisticsServiceTest {
 
     @Test
     void findMax() {
@@ -19,11 +19,11 @@ class StatisticsServiceTest {
     }
 
     @Test
-    void findMax2() {
+    void findMaxInTheMiddle() {
         StatisticsService service = new StatisticsService();
 
-        long[] incomesInBillions = {3, 12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
-        long expected = 12;
+        long[] incomesInBillions = {12, 5, 8, 4, 5, 39, 8, 6, 11, 11, 12};
+        long expected = 39;
 
         long actual = service.findMax(incomesInBillions);
 
